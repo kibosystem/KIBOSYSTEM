@@ -114,4 +114,5 @@ ipch/
 !./x64/Debug/KIBOLIB.lib
 !./x64/Release/KIBOLIB.lib
 ./KIBOLIB/KIBOLIB.sln
+./KIBOLIB/*.cpp
 ./KIBOSYSTEM/Tesseract-OCR/
