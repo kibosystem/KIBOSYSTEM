@@ -59,4 +59,4 @@ TEST*.xml
 ./ipch/
 ./x64/
 KIBOLIB.sln
-./KIBO/*.cpp
+*.cpp
