@@ -56,5 +56,7 @@ TEST*.xml
 *.pdb
 *.ilk
 
-ipch/
-x64/
+./ipch/
+./x64/
+KIBOLIB.sln
+./KIBO/*.cpp
