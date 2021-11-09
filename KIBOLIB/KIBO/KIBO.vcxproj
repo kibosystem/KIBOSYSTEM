@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>KIBOLIB</ProjectName>
+    <ProjectGuid>{44D551F9-D608-4A98-B9BE-C8CF5233659A}</ProjectGuid>
+    <RootNamespace>KIBO</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>D:\dev\opencv-4.5.1\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\dev\opencv-4.5.1\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>D:\dev\opencv-4.5.1\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\dev\opencv-4.5.1\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PrecompiledHeader />
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PrecompiledHeader />
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CaptureBuffer.cpp" />
+    <ClCompile Include="CUSTOMER\gomi.cpp" />
+    <ClCompile Include="Dialog\DialogBarPlus.cpp" />
+    <ClCompile Include="Dialog\HistgramDlg.cpp" />
+    <ClCompile Include="etc\DibEx.cpp" />
+    <ClCompile Include="etc\InputDlg.cpp" />
+    <ClCompile Include="etc\MainFrmEx.cpp" />
+    <ClCompile Include="Gpc5300.cpp" />
+    <ClCompile Include="ImageCtrl.cpp" />
+    <ClCompile Include="KIBO.cpp" />
+    <ClCompile Include="KiboCriticalSection.cpp" />
+    <ClCompile Include="KIBODoc.cpp" />
+    <ClCompile Include="KiboFrame.cpp" />
+    <ClCompile Include="KIBOFrm.cpp" />
+    <ClCompile Include="KIBOView.cpp" />
+    <ClCompile Include="LabelingCV.cpp" />
+    <ClCompile Include="LIB\AboutDlg.cpp" />
+    <ClCompile Include="LIB\ArrayBitmap.cpp" />
+    <ClCompile Include="LIB\ArrayPoint.cpp" />
+    <ClCompile Include="LIB\CLabeling.cpp" />
+    <ClCompile Include="LIB\ComPort.cpp" />
+    <ClCompile Include="LIB\DataBuf.cpp" />
+    <ClCompile Include="LIB\DIB.cpp" />
+    <ClCompile Include="LIB\Dib256.cpp" />
+    <ClCompile Include="LIB\FilePlus.cpp" />
+    <ClCompile Include="LIB\FindCircle.cpp" />
+    <ClCompile Include="LIB\FindLine.cpp" />
+    <ClCompile Include="LIB\FolderDialog.cpp" />
+    <ClCompile Include="LIB\functions.cpp" />
+    <ClCompile Include="LIB\Gdi.cpp" />
+    <ClCompile Include="LIB\GdiPlus.cpp" />
+    <ClCompile Include="LIB\GlobalMgr.cpp" />
+    <ClCompile Include="LIB\Label.cpp" />
+    <ClCompile Include="LIB\ListViewPlus.cpp" />
+    <ClCompile Include="LIB\Object.cpp" />
+    <ClCompile Include="LIB\Static.cpp" />
+    <ClCompile Include="LIB\typedef.cpp" />
+    <ClCompile Include="LIB\VisualObject.cpp" />
+    <ClCompile Include="LIB\WinAppPlus.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="Script\App.cpp" />
+    <ClCompile Include="Script\Bitmap.cpp" />
+    <ClCompile Include="Script\CharacterCheck.cpp" />
+    <ClCompile Include="Script\CharElement.cpp" />
+    <ClCompile Include="Script\CharRecog.cpp" />
+    <ClCompile Include="Script\ImageDevice.cpp" />
+    <ClCompile Include="Script\Labeling.cpp" />
+    <ClCompile Include="Script\MsgBox.cpp" />
+    <ClCompile Include="Script\ScriptBase.cpp" />
+    <ClCompile Include="Script\ScriptCall.cpp" />
+    <ClCompile Include="Script\SerialPort.cpp" />
+    <ClCompile Include="Script\UsbIO.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CaptureBuffer.h" />
+    <ClInclude Include="COMMANDID.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="Dialog\DialogBarPlus.h" />
+    <ClInclude Include="Dialog\HistgramDlg.h" />
+    <ClInclude Include="enum.h" />
+    <ClInclude Include="etc\DibEx.h" />
+    <ClInclude Include="etc\InputDlg.h" />
+    <ClInclude Include="Gpc5300.h" />
+    <ClInclude Include="ImageCtrl.h" />
+    <ClInclude Include="KIBO.h" />
+    <ClInclude Include="KiboCriticalSection.h" />
+    <ClInclude Include="KIBODoc.h" />
+    <ClInclude Include="KiboFrame.h" />
+    <ClInclude Include="KIBOFrm.h" />
+    <ClInclude Include="KIBOLIB.h" />
+    <ClInclude Include="KIBOView.h" />
+    <ClInclude Include="LabelingCV.h" />
+    <ClInclude Include="LIB\AboutDlg.h" />
+    <ClInclude Include="LIB\ArrayBitmap.h" />
+    <ClInclude Include="LIB\ArrayPoint.h" />
+    <ClInclude Include="LIB\CLabeling.h" />
+    <ClInclude Include="LIB\color.h" />
+    <ClInclude Include="LIB\ComPort.h" />
+    <ClInclude Include="LIB\DataBuf.h" />
+    <ClInclude Include="LIB\DIB.h" />
+    <ClInclude Include="LIB\Dib256.h" />
+    <ClInclude Include="LIB\FilePlus.h" />
+    <ClInclude Include="LIB\FindCircle.h" />
+    <ClInclude Include="LIB\FindLine.h" />
+    <ClInclude Include="LIB\FolderDialog.h" />
+    <ClInclude Include="LIB\functions.h" />
+    <ClInclude Include="LIB\Gdi.h" />
+    <ClInclude Include="LIB\GdiPlus.h" />
+    <ClInclude Include="LIB\GlobalMgr.h" />
+    <ClInclude Include="LIB\Label.h" />
+    <ClInclude Include="LIB\ListViewPlus.h" />
+    <ClInclude Include="LIB\macro.h" />
+    <ClInclude Include="LIB\Object.h" />
+    <ClInclude Include="LIB\PointDbl.h" />
+    <ClInclude Include="LIB\Static.h" />
+    <ClInclude Include="LIB\typedef.h" />
+    <ClInclude Include="LIB\VisualObject.h" />
+    <ClInclude Include="LIB\WinAppPlus.h" />
+    <ClInclude Include="MACADDRESS.h" />
+    <ClInclude Include="OpencvInc.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Script\App.h" />
+    <ClInclude Include="Script\Bitmap.h" />
+    <ClInclude Include="Script\CharElement.h" />
+    <ClInclude Include="Script\CharRecog.h" />
+    <ClInclude Include="Script\ImageDevice.h" />
+    <ClInclude Include="Script\Iunknown.h" />
+    <ClInclude Include="Script\Labeling.h" />
+    <ClInclude Include="Script\MsgBox.h" />
+    <ClInclude Include="Script\ScriptBase.h" />
+    <ClInclude Include="Script\ScriptCall.h" />
+    <ClInclude Include="Script\SerialPort.h" />
+    <ClInclude Include="Script\UsbIO.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\KIBO.ico" />
+    <Image Include="res\KIBODoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KIBO.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KIBO.reg" />
+    <None Include="res\KIBO.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="KIBO.rc" _x007B_6262D3A0-531B-11CF-91F6-C2863C385E30_x007D_="CMsflexgrid" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

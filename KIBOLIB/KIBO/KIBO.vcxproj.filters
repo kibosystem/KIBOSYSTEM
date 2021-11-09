@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{bc429258-e48b-4544-b304-9047800d517c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCRIPT">
+      <UniqueIdentifier>{3753db1a-bc60-43c4-ab5f-42d51e36d9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC">
+      <UniqueIdentifier>{4f94e761-8c64-42dc-a964-2fdc56d48b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUSTOMER">
+      <UniqueIdentifier>{344403b4-c6a0-45db-9710-8037f725dfb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{e063729a-be53-4c9f-8705-427bc7715344}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CaptureBuffer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCtrl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KIBO.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KiboCriticalSection.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KIBODoc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KIBOFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KIBOView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TextCtrl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\AboutDlg.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\ArrayBitmap.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\ArrayPoint.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\CLabeling.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\ComPort.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\DataBuf.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\DIB.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\Dib256.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\FilePlus.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\FindCircle.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\FindLine.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\FolderDialog.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\functions.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\Gdi.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\GdiPlus.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\GlobalMgr.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\Label.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\ListViewPlus.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\Object.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\Static.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\typedef.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\VisualObject.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="LIB\WinAppPlus.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\App.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Bitmap.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\CharacterCheck.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\CharElement.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\CharRecog.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ImageDevice.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Labeling.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\MsgBox.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ScriptBase.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ScriptCall.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\SerialPort.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UsbIO.cpp">
+      <Filter>SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="etc\DibEx.cpp">
+      <Filter>ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="etc\InputDlg.cpp">
+      <Filter>ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="etc\MainFrmEx.cpp">
+      <Filter>ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CUSTOMER\gomi.cpp">
+      <Filter>CUSTOMER</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogBarPlus.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\HistgramDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Gpc5300.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KiboFrame.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelingCV.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CaptureBuffer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMANDID.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCtrl.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KIBO.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KiboCriticalSection.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KIBODoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KIBOFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KIBOView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MACADDRESS.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TextCtrl.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\AboutDlg.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\ArrayBitmap.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\ArrayPoint.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\CLabeling.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\color.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\ComPort.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\DataBuf.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\DIB.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\Dib256.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\FilePlus.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\FindCircle.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\FindLine.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\FolderDialog.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\functions.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\Gdi.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\GdiPlus.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\GlobalMgr.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\Label.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\ListViewPlus.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\macro.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\Object.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\PointDbl.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\Static.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\typedef.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\VisualObject.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB\WinAppPlus.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\App.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Bitmap.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\CharElement.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\CharRecog.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ImageDevice.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Iunknown.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Labeling.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\MsgBox.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ScriptBase.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ScriptCall.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\SerialPort.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UsbIO.h">
+      <Filter>SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="etc\DibEx.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="etc\InputDlg.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogBarPlus.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\HistgramDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Gpc5300.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KiboFrame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KIBOLIB.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelingCV.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OpencvInc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\KIBO.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\KIBODoc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KIBO.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\KIBO.rc2">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="KIBO.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
