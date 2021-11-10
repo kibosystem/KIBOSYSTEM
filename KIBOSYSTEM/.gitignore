@@ -24,7 +24,8 @@ dist/
 # Maven
 target/
 dist/
-/kibosystem/x64
+x64/
+Tesseract-OCR/
 
 # JetBrains IDE
 .idea/
@@ -54,4 +55,3 @@ TEST*.xml
 *.wmv
 *.pdb
 *.ilk
-
