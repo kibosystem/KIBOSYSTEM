@@ -38,15 +38,6 @@ TEST*.xml
 *.war
 
 # Large media files
-*.mp4
-*.tiff
-*.avi
-*.flv
-*.mov
-*.wmv
-*.bmp
-*.jpg
-*.png
 *.pdb
 *.ilk
 
@@ -97,17 +88,6 @@ TEST*.xml
 *.war
 
 # Large media files
-*.mp4
-*.tiff
-*.avi
-*.flv
-*.mov
-*.wmv
-*.bmp
-*.jpg
-*.png
-*.pdb
-*.ilk
 
 ipch/
 .vs/
