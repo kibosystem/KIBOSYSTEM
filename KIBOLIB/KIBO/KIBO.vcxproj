@@ -79,8 +79,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
-    <IncludePath>D:\dev\opencv-4.5.1\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\dev\opencv-4.5.1\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\dev\opencv-4.5.4\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\dev\opencv-4.5.4\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
@@ -89,8 +89,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
-    <IncludePath>D:\dev\opencv-4.5.1\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\dev\opencv-4.5.1\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\dev\opencv-4.5.4\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\dev\opencv-4.5.4\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>

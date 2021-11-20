@@ -8,9 +8,9 @@
 #include <opencv2/videoio/videoio_c.h>
 
 #ifdef _DEBUG
-#pragma comment(lib, "opencv_world451d.lib")
+#pragma comment(lib, "opencv_world454d.lib")
 #else
-#pragma comment(lib, "opencv_world451.lib")
+#pragma comment(lib, "opencv_world454.lib")
 #endif
 
 using namespace cv;
